@@ -1,7 +1,6 @@
 NAME		=	akupriia.filler
-LIBFT_DIR	=	libft
-LIBFT		=	$(LIBFT_DIR)/libft.a
-LIBFT1		=	$(LIBFT_DIR)/libftprintf.a
+LIBFT_DIR	=	ft_printf
+LIBFT		=	$(LIBFT_DIR)/libftprintf.a
 FILENAMES	=	make_map.c \
 				gnl.c		\
 				algorithm.c	 \
@@ -13,7 +12,7 @@ CC			=	gcc
 
 all: $(NAME)
 
-$(NAME): $(LIBFT) $(LIBFT1) $(OBJECTS)
+$(NAME): $(LIBFT) $(OBJECTS)
 	$(CC) -o $@ $(FLAGS) $^
 
 $(LIBFT):
