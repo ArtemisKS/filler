@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   algorithm.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akupriia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/25 18:50:17 by akupriia          #+#    #+#             */
-/*   Updated: 2018/03/25 18:50:18 by akupriia         ###   ########.fr       */
+/*   Updated: 2019/03/21 21:42:38 by vdzhanaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "filler.h"
+#include "../includes/filler.h"
 
 void			init_coord(t_coord *tc, t_map *tm)
 {

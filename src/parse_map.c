@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   parse_map.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akupriia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/25 18:54:02 by akupriia          #+#    #+#             */
-/*   Updated: 2018/03/25 18:54:03 by akupriia         ###   ########.fr       */
+/*   Updated: 2019/03/21 21:42:55 by vdzhanaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "filler.h"
+#include "../includes/filler.h"
 
 int				main(void)
 {
@@ -19,7 +19,7 @@ int				main(void)
 
 	tm = (t_map *)malloc(sizeof(t_map));
 	line = NULL;
-	get_next_line1(0, &line);
+	get_next_line(0, &line);
 	if (ft_strstr(line, " p1 "))
 		tm->player = PLAYER_1;
 	else
@@ -66,7 +66,7 @@ void			form_map(t_map *tm, char *line)
 	i = 0;
 	while (i <= tm->y_n)
 	{
-		get_next_line1(0, &line);
+		get_next_line(0, &line);
 		if (i)
 			tm->map[i - 1] = ft_strdup(line + 4);
 		ft_strdel(&line);
@@ -81,7 +81,7 @@ void			form_token(t_map *tm, char *line)
 	i = 0;
 	while (i < tm->p_y)
 	{
-		get_next_line1(0, &line);
+		get_next_line(0, &line);
 		tm->token[i] = ft_strdup(line);
 		ft_strdel(&line);
 		i++;

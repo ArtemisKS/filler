@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   gnl.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akupriia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/25 19:19:53 by akupriia          #+#    #+#             */
-/*   Updated: 2018/03/25 19:19:54 by akupriia         ###   ########.fr       */
+/*   Updated: 2019/03/21 21:42:46 by vdzhanaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "gnl.h"
+#include "../includes/filler.h"
 
 static int		ft_read(char *buff, t_line *curr)
 {
@@ -62,7 +62,7 @@ static t_line	*ft_curr(t_line **list, const int fd)
 	return (new);
 }
 
-int				get_next_line1(const int fd, char **line)
+int				get_next_line(const int fd, char **line)
 {
 	static t_line	*list = NULL;
 	t_line			*curr;

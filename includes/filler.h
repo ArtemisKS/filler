@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   filler.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akupriia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/11 20:28:42 by akupriia          #+#    #+#             */
-/*   Updated: 2018/03/11 20:28:42 by akupriia         ###   ########.fr       */
+/*   Updated: 2019/03/21 22:27:08 by vdzhanaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,25 @@
 
 # define PLAYER_1 'O'
 # define PLAYER_2 'X'
+# define BUFF_SIZE 100
 
-# include "libft/libft.h"
-# include "libft/ft_printf/ft_printf.h"
-# include "gnl.h"
+# include "../libft/libft.h"
+# include "mlx/mlx.h"
+# include "../libft/ft_printf/ft_printf.h"
+# include <stdlib.h>
+# include <stdio.h>
+# include <fcntl.h>
+# include <sys/types.h>
+# include <sys/stat.h>
+
+typedef struct		s_line
+{
+	int				fd;
+	char			*str;
+	struct s_line	*next;
+}					t_line;
+
+int					get_next_line(int fd, char **line);
 
 typedef struct		s_map
 {

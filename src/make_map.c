@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   make_map.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akupriia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/25 19:10:11 by akupriia          #+#    #+#             */
-/*   Updated: 2018/03/25 19:10:12 by akupriia         ###   ########.fr       */
+/*   Updated: 2019/03/21 21:42:49 by vdzhanaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "filler.h"
+#include "../includes/filler.h"
 
 static void		free_arr(void ***arr, size_t i)
 {
@@ -35,7 +35,7 @@ static void		read_msize(t_map *tm, char *line)
 {
 	int gnl;
 
-	gnl = get_next_line1(0, &line);
+	gnl = get_next_line(0, &line);
 	tm->y_n = ft_atoi(line + 8);
 	tm->x_n = ft_atoi(line + 11);
 	if (gnl)
@@ -46,7 +46,7 @@ static void		read_tsize(t_map *tm, char *line)
 {
 	int gnl;
 
-	gnl = get_next_line1(0, &line);
+	gnl = get_next_line(0, &line);
 	tm->p_y = ft_atoi(line + 6);
 	tm->p_x = ft_atoi(line + 8);
 	if (gnl)

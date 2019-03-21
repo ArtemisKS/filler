@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.env": "txt",
+        "*.example": "txt",
+        "*.php": [
+            "php",
+            "html"
+        ],
+        "visual.h": "c"
+    }
+}

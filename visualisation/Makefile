@@ -5,58 +5,36 @@
 #                                                     +:+ +:+         +:+      #
 #    By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/03/21 21:15:35 by vdzhanaz          #+#    #+#              #
-#    Updated: 2019/03/21 22:40:27 by vdzhanaz         ###   ########.fr        #
+#    Created: 2017/02/04 10:13:27 by lcharvol          #+#    #+#              #
+#    Updated: 2019/03/21 22:42:47 by vdzhanaz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		:=	assets/players/akupriia.filler
+NAME		:= visual
 
-LIBFT_DIR	:=	ft_printf
+LIBFT_DIR	:=	../ft_printf
 LIBFT		:=	$(LIBFT_DIR)/libftprintf.a
-SCR			:=	src
+SCR			:=	srcs
 INCLUDES	:=	includes
-FILENAMES	:=	$(SCR)/make_map.c \
-				$(SCR)/gnl.c		\
-				$(SCR)/algorithm.c	 \
-				$(SCR)/parse_map.c
-OBJ			:=	$(FILENAMES:.c=.o)
-FLAGS		:=	-Wall -Wextra -Werror -I./$(INCLUDES)
-CC			:=	gcc
+SRCS 		:=	$(SCR)/draw.c \
+				$(SCR)/parcing.c \
+				$(SCR)/main.c \
+				$(SCR)/other.c \
+				$(SCR)/other2.c \
+
+FLAGS		:= -Wall -Werror -Wextra -I./$(INCLUDES)
+
+OBJ			:= $(SRCS:.c=.o)
 
 all: $(NAME)
 
-$(NAME): $(LIBFT) $(OBJ) $(VIS)
-	$(CC) -o $@ $(FLAGS) $^
-
-$(LIBFT):
-	make -C $(LIBFT_DIR)
-
-$(VIS):
-	make -C visualisation
+$(NAME): $(OBJ)
+	gcc -o $(NAME) $(FLAGS) $(OBJ) -L../$(INCLUDES)/mlx/ -lmlx -framework OpenGL -framework AppKit $(LIBFT)
 
 clean:
-	make clean -C visualisation
-	make -C $(LIBFT_DIR)
 	rm -f $(OBJ)
-	rm -rf obj/
 
 fclean: clean
-	make fclean -C visualisation
-	make fclean -C $(LIBFT_DIR)
-	rm -f $(OBJ)
 	rm -f $(NAME)
 
 re: fclean all
-
-mclean:
-	make clean -C visualisation
-	rm -f $(OBJ)
-
-mfclean:
-	make fclean -C visualisation
-	rm -f $(NAME)
-
-mre: mfclean all
-
-.PHONY: all clean fclean re one two

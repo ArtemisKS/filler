@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   gnl.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: akupriia <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/25 19:23:09 by akupriia          #+#    #+#             */
-/*   Updated: 2018/03/25 19:23:10 by akupriia         ###   ########.fr       */
+/*   Updated: 2019/03/21 21:43:33 by vdzhanaz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,6 @@ typedef struct		s_line
 	struct s_line	*next;
 }					t_line;
 
-int					get_next_line1(int fd, char **line);
+int					get_next_line(int fd, char **line);
 
 #endif
