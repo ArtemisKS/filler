@@ -1,0 +1,995 @@
+spl: ['#', '--------------', 'VM', '', 'version', '1.1', '-------------', '#']
+spl: ['#', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '#']
+spl: ['#', '42', '/', 'filler', 'VM', 'Developped', 'by:', 'Hcao', '-', 'Abanlin', '#']
+spl: ['#', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '#']
+spl: ['#', '--------------------------------------------', '#']
+spl: ['launched', 'assets/players/akupriia.filler']
+spl: ['$$$', 'exec', 'p1', ':', '[assets/players/akupriia.filler]']
+spl: ['launched', 'assets/players/carli.filler']
+spl: ['$$$', 'exec', 'p2', ':', '[assets/players/carli.filler]']
+spl: ['Plateau', '100', '99:']
+spl: ['', '', '', '', '012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678']
+spl: ['000', '...................................................................................................']
+spl: ['001', '...................................................................................................']
+spl: ['002', '...................................................................................................']
+spl: ['003', '...................................................................................................']
+spl: ['004', '...................................................................................................']
+spl: ['005', '...................................................................................................']
+spl: ['006', '...................................................................................................']
+spl: ['007', '...................................................................................................']
+spl: ['008', '...................................................................................................']
+spl: ['009', '...................................................................................................']
+spl: ['010', '...................................................................................................']
+spl: ['011', '...................................................................................................']
+spl: ['012', '...................................................................................................']
+spl: ['013', '...................................................................................................']
+spl: ['014', '...................................................................................................']
+spl: ['015', '...................................................................................................']
+spl: ['016', '...................................................................................................']
+spl: ['017', '...................................................................................................']
+spl: ['018', '...................................................................................................']
+spl: ['019', '...................................................................................................']
+spl: ['020', '...................................................................................................']
+spl: ['021', '...................................................................................................']
+spl: ['022', '...................................................................................................']
+spl: ['023', '...................................................................................................']
+spl: ['024', '...................................................................................................']
+spl: ['025', '...................................................................................................']
+spl: ['026', '...................................................................................................']
+spl: ['027', '...................................................................................................']
+spl: ['028', '...................................................................................................']
+spl: ['029', '..............................X....................................................................']
+spl: ['030', '...................................................................................................']
+spl: ['031', '...................................................................................................']
+spl: ['032', '...................................................................................................']
+spl: ['033', '...................................................................................................']
+spl: ['034', '...................................................................................................']
+spl: ['035', '...................................................................................................']
+spl: ['036', '...................................................................................................']
+spl: ['037', '...................................................................................................']
+spl: ['038', '...................................................................................................']
+spl: ['039', '...................................................................................................']
+spl: ['040', '...................................................................................................']
+spl: ['041', '...................................................................................................']
+spl: ['042', '...................................................................................................']
+spl: ['043', '...................................................................................................']
+spl: ['044', '...................................................................................................']
+spl: ['045', '...................................................................................................']
+spl: ['046', '...................................................................................................']
+spl: ['047', '...................................................................................................']
+spl: ['048', '...................................................................................................']
+spl: ['049', '...................................................................................................']
+spl: ['050', '...................................................................................................']
+spl: ['051', '...................................................................................................']
+spl: ['052', '...................................................................................................']
+spl: ['053', '...................................................................................................']
+spl: ['054', '...................................................................................................']
+spl: ['055', '...................................................................................................']
+spl: ['056', '...................................................................................................']
+spl: ['057', '...................................................................................................']
+spl: ['058', '...................................................................................................']
+spl: ['059', '...................................................................................................']
+spl: ['060', '...................................................................................................']
+spl: ['061', '...................................................................................................']
+spl: ['062', '...................................................................................................']
+spl: ['063', '...................................................................................................']
+spl: ['064', '...................................................................................................']
+spl: ['065', '...................................................................................................']
+spl: ['066', '...................................................................................................']
+spl: ['067', '...................................................................................................']
+spl: ['068', '...................................................................................................']
+spl: ['069', '......................................................................O............................']
+spl: ['070', '...................................................................................................']
+spl: ['071', '...................................................................................................']
+spl: ['072', '...................................................................................................']
+spl: ['073', '...................................................................................................']
+spl: ['074', '...................................................................................................']
+spl: ['075', '...................................................................................................']
+spl: ['076', '...................................................................................................']
+spl: ['077', '...................................................................................................']
+spl: ['078', '...................................................................................................']
+spl: ['079', '...................................................................................................']
+spl: ['080', '...................................................................................................']
+spl: ['081', '...................................................................................................']
+spl: ['082', '...................................................................................................']
+spl: ['083', '...................................................................................................']
+spl: ['084', '...................................................................................................']
+spl: ['085', '...................................................................................................']
+spl: ['086', '...................................................................................................']
+spl: ['087', '...................................................................................................']
+spl: ['088', '...................................................................................................']
+spl: ['089', '...................................................................................................']
+spl: ['090', '...................................................................................................']
+spl: ['091', '...................................................................................................']
+spl: ['092', '...................................................................................................']
+spl: ['093', '...................................................................................................']
+spl: ['094', '...................................................................................................']
+spl: ['095', '...................................................................................................']
+spl: ['096', '...................................................................................................']
+spl: ['097', '...................................................................................................']
+spl: ['098', '...................................................................................................']
+spl: ['099', '...................................................................................................']
+spl: ['Piece', '8', '4:']
+spl: ['<got', '(O):', '[63,', '67]']
+piece: ['....', '....', '....', '....', '..*.', '.**.', '..**', '.*..']
+map_size_y: 100; map_size_x: 99
+init_coords: {'X': [29, 30], 'O': [69, 70]}
+rect_x: Rectangle(Point(420.0, 411.0), Point(429.0, 420.0)); rect_y: Rectangle(Point(780.0, 771.0), Point(789.0, 780.0))
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: X
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
+curr_player: O
