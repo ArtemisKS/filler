@@ -41,7 +41,6 @@
 *.su
 *.idb
 *.pdb
-.vscode
 
 # Kernel Module Compile Results
 *.mod*
@@ -51,4 +50,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-__pycache__
