@@ -43,7 +43,7 @@
 *.pdb
 .vscode
 
-# Kernel Module Compile Results
+# Kernel Module Compile Results and other files
 *.mod*
 *.cmd
 .tmp_versions/
@@ -52,3 +52,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 __pycache__
+log*

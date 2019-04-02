@@ -196,24 +196,17 @@ def indent_and_scale():
 	end_x = SCR_WIDTH - INIT_X
 	while INIT_X + indent < end_x - wid_len - indent:
 		indent += 1
-		if indent > SCR_WIDTH/2:
-			error_and_quit(f'you stupid fuck!\n init_x: {INIT_X}, end_x: {end_x}, indent: {indent}, label_len: {label_len}')
 	INIT_X += indent
 	indent = 0
 	end_y = SCR_HEIGHT - INIT_Y
 	h_len = BOX_SIZE * map_size_y
 	while INIT_Y + indent < end_y - h_len - indent:
 		indent += 1
-		if indent > SCR_HEIGHT/2:
-			error_and_quit(f'you stupid fuck!\n init_x: {INIT_X}, end_x: {end_x}, indent: {indent}, label_len: {label_len}')
 	INIT_Y += indent		
 
 def display(coords, piece):
 	if not coords:
 		error_and_quit('no coords')
-
-	if not piece:
-		finish_the_game()
 	# for line in piece:
 	# 	print(line)		
 	# print(f'len(pl_map): {len(pl_map)}')

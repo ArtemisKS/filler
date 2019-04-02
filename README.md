@@ -9,7 +9,18 @@ piece can no longer be placed. Little playful project!
 
 # Usage
 
-```console
+To be able to run filler with visualisation, make sure you have python not lower than 3.6 installed
+To check and/or update, here are some helpful commands:
+
+```
+python --version
+which python
+brew install python
+```
+
+And, of course, don't forget about ```man```
+
+```
 make
 ./assets/filler_vm -f assets/maps/map02 -p1 assets/players/akupriia.filler -p2 assets/players/abarriel.filler | visualisation/visual
 ```
