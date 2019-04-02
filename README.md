@@ -22,5 +22,5 @@ And, of course, don't forget about ```man```
 
 ```
 make
-./assets/filler_vm -f assets/maps/map02 -p1 assets/players/akupriia.filler -p2 assets/players/abarriel.filler | visualisation/visual
+./assets/filler_vm -f assets/maps/map02 -p1 assets/players/akupriia.filler -p2 assets/players/abarriel.filler | python filler_vis.py
 ```
