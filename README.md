@@ -9,7 +9,7 @@ piece can no longer be placed. Little playful project!
 
 # Usage
 
-To be able to run filler with visualisation, make sure you have python not lower than 3.6 installed
+To be able to run filler with visualisation, make sure you have python not lower than 3.6 installed  
 To check and/or update, here are some helpful commands:
 
 ```
