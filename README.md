@@ -7,7 +7,7 @@ a board, and take turns placing the piece that the master of the game (supplied 
 form of a Ruby executable) gives them, earning points. The game stops as soon as a
 piece can no longer be placed. Little playful project!
 
-# Usage
+## Usage
 
 To be able to run filler with visualisation, make sure you have python not lower than 3.6 installed  
 To check and/or update, here are some helpful commands:
