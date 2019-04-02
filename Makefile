@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+         #
+#    By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/03/21 21:15:35 by vdzhanaz          #+#    #+#              #
-#    Updated: 2019/03/21 22:40:27 by vdzhanaz         ###   ########.fr        #
+#    Created: 2019/03/21 21:15:35 by akupriia          #+#    #+#              #
+#    Updated: 2019/04/02 14:28:29 by akupriia         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,23 +26,18 @@ CC			:=	gcc
 
 all: $(NAME)
 
-$(NAME): $(LIBFT) $(OBJ) $(VIS)
+$(NAME): $(LIBFT) $(OBJ)
 	$(CC) -o $@ $(FLAGS) $^
 
 $(LIBFT):
 	make -C $(LIBFT_DIR)
 
-$(VIS):
-	make -C visualisation
-
 clean:
-	make clean -C visualisation
 	make -C $(LIBFT_DIR)
 	rm -f $(OBJ)
 	rm -rf obj/
 
 fclean: clean
-	make fclean -C visualisation
 	make fclean -C $(LIBFT_DIR)
 	rm -f $(OBJ)
 	rm -f $(NAME)
@@ -50,11 +45,9 @@ fclean: clean
 re: fclean all
 
 mclean:
-	make clean -C visualisation
 	rm -f $(OBJ)
 
 mfclean:
-	make fclean -C visualisation
 	rm -f $(NAME)
 
 mre: mfclean all

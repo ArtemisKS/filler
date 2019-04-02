@@ -77,10 +77,10 @@ def draw_line(x1, y1, x2, y2, color):
 def draw_lines(color):
 	for i in range(map_size_y + 1):
 		cur_y = INIT_Y + i * BOX_SIZE
-		line = draw_line(INIT_X, cur_y, INIT_X + (map_size_x - 1) * BOX_SIZE, cur_y, color)
+		draw_line(INIT_X, cur_y, INIT_X + (map_size_x - 1) * BOX_SIZE, cur_y, color)
 	for i in range(map_size_x):
 		cur_x = INIT_X + i * BOX_SIZE
-		line = draw_line(cur_x, INIT_Y, cur_x, INIT_Y + map_size_y * BOX_SIZE, color)
+		draw_line(cur_x, INIT_Y, cur_x, INIT_Y + map_size_y * BOX_SIZE, color)
 
 def draw_start_label(starter):
 	text = gr.Text(gr.Point(win.getWidth()/2 - 25, SCR_HEIGHT - INIT_Y/2), 'Click on the screen to start')
@@ -131,7 +131,6 @@ def draw_arena():
 	win.getMouse()
 	label.undraw()	
 
-
 def token_is_cor(piece, y, x):
 	y_incr = 0
 	for line in piece:
@@ -143,13 +142,19 @@ def token_is_cor(piece, y, x):
 		y_incr += 1
 	return False
 
+def end_and_quit():
+	win.close()
+	quit()
+
 def draw_coords(coords, piece):
 	y, x = coords[0], coords[1]
 	y_incr = 0
-	init_rect =  arena[y % map_size_y][x % map_size_x]
+	# init_rect =  arena[y % map_size_y][x % map_size_x]
 	# init_rect =  arena[y][x]
 	if token_is_cor(piece, y, x):
 		for line in piece:
+			if win.checkKey() == 'Escape':
+				end_and_quit()
 			for i in range(len(line)):
 				if line[i] == '*':
 					rect = arena[(y + y_incr) % map_size_y][(x + i) % map_size_x]
@@ -176,8 +181,7 @@ def finish_the_game(player1_points, player2_points):
 	# rect_up.draw(win)
 	draw_quit_label(winner)
 	win.getMouse()
-	win.close()
-	quit()
+	end_and_quit()
 
 def indent_and_scale():
 	global BOX_SIZE, INIT_X, INIT_Y
@@ -241,6 +245,8 @@ def parse_map_and_display():
 	global map_size_x, map_size_y, piece_size_x, piece_size_y, player
 	# not_done_yet = True
 	for line in sys.stdin:
+		if win.checkKey() == 'Escape':
+			end_and_quit()
 		spl = line[:-1].split(' ')
 		# print(f'spl: {spl}, i: {i}')
 		if 'Plateau' in spl:
@@ -266,7 +272,7 @@ def parse_map_and_display():
 			player = spl[1][1]
 			display(coords, piece)
 			piece.clear()
-			print(f'curr_player: {player}')
+			# print(f'curr_player: {player}')
 			if player != PLAYER_1 and player != PLAYER_2:
 				error_and_quit(f'your player\'s token is \'{player}\' and it isn\'t equal to \'{PLAYER_1}\' and \'{PLAYER_2}\'')
 			# not_done_yet = True
@@ -312,7 +318,7 @@ def	init_parse_and_cycle():
 			continue
 		elif 'Piece' in spl:
 			piece_size_y = int(spl[1])
-			piece_size_x = int(spl[2][:-1])
+			# piece_size_x = int(spl[2][:-1])
 			parse_piece(sys.stdin, piece_size_y)
 			continue
 		elif '<got' in spl:

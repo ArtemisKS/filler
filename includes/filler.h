@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   filler.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vdzhanaz <vdzhanaz@student.unit.ua>        +#+  +:+       +#+        */
+/*   By: akupriia <akupriia@student.unit.ua>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/11 20:28:42 by akupriia          #+#    #+#             */
-/*   Updated: 2019/03/21 22:27:08 by vdzhanaz         ###   ########.fr       */
+/*   Updated: 2019/04/02 14:26:56 by akupriia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # define BUFF_SIZE 100
 
 # include "../libft/libft.h"
-# include "mlx/mlx.h"
 # include "../libft/ft_printf/ft_printf.h"
 # include <stdlib.h>
 # include <stdio.h>
