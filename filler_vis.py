@@ -1,7 +1,10 @@
+#!/usr/bin/env python3.7
+
 import sys
 import graphics as gr
 import re
 import time
+import select
 
 map_size_x, map_size_y = 0, 0
 piece_size_x, piece_size_y = 0, 0
@@ -34,6 +37,9 @@ win.setBackground(gr.color_rgb(255, 255, 255))
 def error_and_quit(mes):
 	print('Error:', mes)
 	quit()
+
+if not select.select([sys.stdin,],[],[],0.0)[0]:
+    error_and_quit('No data in stdin')
 
 def make_rect(x1, y1, x2, y2, color, line_width):
 	rect = gr.Rectangle(gr.Point(x1, y1), gr.Point(x2, y2))
@@ -282,7 +288,7 @@ def parse_map_and_display():
 			spl_end = sys.stdin.readline().split(' ')
 			finish_the_game(int(spl[-1]), int(spl_end[-1]))
 		else:
-			error_and_quit(f'Something\'s wrong in your input, guys. Here\'s the faulty line: {line}')
+			error_and_quit(f'Something\'s wrong in your input, guys. Here\'s the faulty line: \'{line}\'')
 	return
 
 def	init_parse_and_cycle():
