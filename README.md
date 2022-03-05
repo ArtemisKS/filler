@@ -19,10 +19,16 @@ brew install python
 ```
 
 And, of course, don't forget about ```man```
+Then run
 
 ```
 make
 ```
+
+And everything's set up!
+
+**To run the game**
+
 Small map:
 ```
 ./assets/filler_vm -f assets/maps/map00 -p1 assets/players/akupriia.filler -p2 assets/players/abarriel.filler | python filler_vis.py
